@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Bounce House Rentals</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        .featured-rentals {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2em 0;
+        }
+
+        .rental-item {
+            text-align: center;
+            margin: 0 10px;
+            max-width: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Your Bounce House Rentals</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#rentals">Rentals</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Rent Bounce Houses and Party Supplies for Unforgettable Celebrations!</h2>
+        <a href="#rentals"><button>Browse Rentals</button></a>
+    </div>
+
+    <div class="featured-rentals">
+        <!-- Featured Rental 1 -->
+        <div class="rental-item">
+            <img src="bounce-house1.jpg" alt="Bounce House 1">
+            <h3>Bounce House 1</h3>
+            <p>Description and features...</p>
+            <p>$X.XX per day</p>
+            <a href="#rent-now">Rent Now</a>
+        </div>
+
+        <!-- Featured Rental 2 -->
+        <div class="rental-item">
+            <img src="bounce-house2.jpg" alt="Bounce House 2">
+            <h3>Bounce House 2</h3>
+            <p>Description and features...</p>
+            <p>$X.XX per day</p>
+            <a href="#rent-now">Rent Now</a>
+        </div>
+
+        <!-- Featured Rental 3 -->
+        <div class="rental-item">
+            <img src="party-supplies1.jpg" alt="Party Supplies 1">
+            <h3>Party Supplies 1</h3>
+            <p>Description and features...</p>
+            <p>$X.XX per day</p>
+            <a href="#rent-now">Rent Now</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Your Bounce House Rentals. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
